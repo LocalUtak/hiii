@@ -70,21 +70,21 @@ nav h2 {
 }
  
 .search input {
-    background-color: #160975;
+    background-color: #0066ff;
     border: none;
     border-radius: 1vw 0 0 1vw;
     color: #fff;
     font-size: 1.5vw;
-    font-weight: 600;
+    font-weight: 1000;
     padding: 0.8vw 1.5vw;
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Noto Sans Mono', sans-serif;
     z-index: 1;
     outline: none;
 }
  
 .search input::placeholder {
     color: #fff;
-    font-weight: 600;
+    font-weight: 1000;
     font-size: 1.5vw;
 }
  
@@ -118,6 +118,7 @@ nav h2 {
     cursor: pointer;
     user-select: none;
     transition: transform .2s;
+    box-shadow: 5px 5px 10px rgba(53, 53, 53, 0.459);
 }
  
 #games img:hover {
